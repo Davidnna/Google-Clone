@@ -27,6 +27,7 @@
 .btn-wrapper {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .btn {
@@ -43,3 +44,14 @@
     font-size: 14px;
 }
 
+@media (max-width: 470px) {
+    .search-input {
+        width: 70%;
+    }
+}
+
+@media (max-width: 320px) {
+    .logo-img {
+        width: 80%;
+    }
+}
