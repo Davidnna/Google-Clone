@@ -1,0 +1,54 @@
+.main {
+    margin: 6em 0 0;    
+}
+
+/* Logo */
+figure {
+    margin: 0;
+}
+
+figure .logo-img {
+    display: block;
+    width: 18.7em;
+    margin: 0 auto 1.3em;
+}
+
+/* Search Input */
+.search-input {
+    display: block;
+    width: 30em;
+    margin: 0 auto;
+    line-height: 1.7em;
+    padding: 0.8em 2.3em;
+    border: 1px solid #dfe1e5;
+    border-radius: 1.7em;
+}
+
+/* Actions */
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin: 30px 0.3em 0;
+    background: #dfe1e5;
+    border: none;
+    padding: 0.6em 1.2em;
+    border-radius: 0.3em;
+    font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 470px) {
+    .search-input {
+        width: 70%;
+    }
+}
+
+@media (max-width: 320px) {
+    figure .logo-img {
+        width: 80%;
+    }
+}
